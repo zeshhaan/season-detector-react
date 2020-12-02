@@ -9,7 +9,7 @@ const LoadingSpinner = (props) => {
 };
 
 LoadingSpinner.defaultProps = {
-  text: 'Allow access to your location if prompted'
-}
+  text: "Allow access to your location if prompted"
+};
 
 export default LoadingSpinner;
