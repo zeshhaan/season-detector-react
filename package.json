@@ -1,7 +1,7 @@
 {
   "name": "season-detector",
   "version": "1.0.0",
-  "description": "- Need to get the users physical location\n- Need to determine the current month\n- Need to change text and styling based on the location + month",
+  "description": "This small app is built while i am learning React with a focus on class based components. Thanks to Stephen Grider for his guidance and mentorship",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
