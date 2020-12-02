@@ -1,11 +1,9 @@
 import React from "react";
 
-const LoadingSpinner = () => {
+const LoadingSpinner = (props) => {
   return (
     <div className="ui active dimmer">
-      <div className="ui big text loader">
-        Allow access to your location if prompted
-      </div>
+      <div className="ui big text loader">{props.text}</div>
     </div>
   );
 };

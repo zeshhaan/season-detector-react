@@ -20,7 +20,7 @@ class App extends React.Component {
     if (!this.state.errorMessage && this.state.lat) {
       return <SeasonDisplay lat={this.state.lat} />;
     }
-    return <LoadingSpinner />;
+    return <LoadingSpinner text="Allow access to your location if prompted" />;
   }
 }
 
